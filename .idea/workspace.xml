@@ -10,14 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36291727-e265-4fc6-a005-2fbabddd7af8" name="Default Changelist" comment="added .idea to git ignore">
+    <list default="true" id="36291727-e265-4fc6-a005-2fbabddd7af8" name="Default Changelist" comment="all Ruby functionalities added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,8 @@
       <workItem from="1602707476171" duration="62000" />
       <workItem from="1602794004849" duration="4108000" />
       <workItem from="1602919891370" duration="1158000" />
-      <workItem from="1602921311718" duration="17455000" />
+      <workItem from="1602921311718" duration="17726000" />
+      <workItem from="1602955774404" duration="446000" />
     </task>
     <task id="LOCAL-00001" summary="added .idea to git ignore">
       <created>1602933091449</created>
@@ -59,7 +56,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602933091449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all Ruby functionalities added">
+      <created>1602955464764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602955464764</updated>
+    </task>
+    <task id="LOCAL-00003" summary="all Ruby functionalities added">
+      <created>1602955479396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602955479396</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,7 +90,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added .idea to git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .idea to git ignore" />
+    <MESSAGE value="all Ruby functionalities added" />
+    <option name="LAST_COMMIT_MESSAGE" value="all Ruby functionalities added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="826" y="381" width="339" height="207" key="Github.ShareDialog" timestamp="1602932729823">
@@ -90,10 +102,11 @@
       <screen x="72" y="27" width="1848" height="908" />
     </state>
     <state x="793" y="156" width="479" height="644" key="Github.UntrackedFilesDialog/72.27.1848.908@72.27.1848.908" timestamp="1602932757950" />
-    <state x="591" y="217" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602933098323">
-      <screen x="72" y="27" width="1848" height="908" />
+    <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602955482138">
+      <screen x="72" y="27" width="1848" height="955" />
     </state>
     <state x="591" y="217" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.908@72.27.1848.908" timestamp="1602933098323" />
+    <state x="591" y="227" key="Vcs.Push.Dialog.v2/72.27.1848.955@72.27.1848.955" timestamp="1602955482138" />
     <state x="777" y="396" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602930381724">
       <screen x="72" y="27" width="1848" height="908" />
     </state>

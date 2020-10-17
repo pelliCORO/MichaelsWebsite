@@ -19,6 +19,7 @@ class UsersController < ApplicationController
 
   # GET /users/1/edit
   def edit
+    redirect_to login_path, notice: "You must be logged in" unless current_user
   end
 
 

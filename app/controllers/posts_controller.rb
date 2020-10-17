@@ -14,7 +14,7 @@ class PostsController < ApplicationController
 
   # GET /posts/new
   def new
-    redirect_to root_url, notice: "You must be logged in" unless current_user
+    redirect_to login_path, notice: "You must be logged in" unless current_user
 
     @post = Post.new
   end
@@ -22,6 +22,7 @@ class PostsController < ApplicationController
 
   # GET /posts/1/edit
   def edit
+    redirect_to login_path, notice: "You must be logged in" unless current_user
   end
 
   # POST /posts
