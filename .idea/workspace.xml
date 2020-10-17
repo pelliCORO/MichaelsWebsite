@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36291727-e265-4fc6-a005-2fbabddd7af8" name="Default Changelist" comment="" />
+    <list default="true" id="36291727-e265-4fc6-a005-2fbabddd7af8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +44,7 @@
       <workItem from="1602707476171" duration="62000" />
       <workItem from="1602794004849" duration="4108000" />
       <workItem from="1602919891370" duration="1158000" />
-      <workItem from="1602921311718" duration="9814000" />
+      <workItem from="1602921311718" duration="10152000" />
     </task>
     <servers />
   </component>
@@ -66,13 +68,21 @@
       <screen x="72" y="27" width="1848" height="908" />
     </state>
     <state x="826" y="381" width="339" height="207" key="Github.ShareDialog/72.27.1848.908@72.27.1848.908" timestamp="1602932729823" />
+    <state x="793" y="156" width="479" height="644" key="Github.UntrackedFilesDialog" timestamp="1602932757950">
+      <screen x="72" y="27" width="1848" height="908" />
+    </state>
+    <state x="793" y="156" width="479" height="644" key="Github.UntrackedFilesDialog/72.27.1848.908@72.27.1848.908" timestamp="1602932757950" />
+    <state x="591" y="217" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602933068843">
+      <screen x="72" y="27" width="1848" height="908" />
+    </state>
+    <state x="591" y="217" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.908@72.27.1848.908" timestamp="1602933068843" />
     <state x="777" y="396" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602930381724">
       <screen x="72" y="27" width="1848" height="908" />
     </state>
     <state x="777" y="396" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.908@72.27.1848.908" timestamp="1602930381724" />
-    <state x="659" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1602932707728">
+    <state x="659" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1602933050218">
       <screen x="72" y="27" width="1848" height="908" />
     </state>
-    <state x="659" y="223" width="672" height="678" key="search.everywhere.popup/72.27.1848.908@72.27.1848.908" timestamp="1602932707728" />
+    <state x="659" y="223" width="672" height="678" key="search.everywhere.popup/72.27.1848.908@72.27.1848.908" timestamp="1602933050218" />
   </component>
 </project>
