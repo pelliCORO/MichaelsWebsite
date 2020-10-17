@@ -39,14 +39,7 @@
 </header>
 
 <main role="main">
-  <% if current_user %>
-    Logged in as <%= current_user.email %>.
-    <%= link_to 'Log Out', logout_path %>
-  <% else %>
-    <%= link_to 'Sign Up', signup_path %> or
-    <%= link_to 'Log In', login_path %>
-  <% end %>
-  <p id='notice'><%= notice %></p>
+
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -83,39 +76,31 @@
         <%= link_to 'Log In', login_path %>
       <% end %>
       <p id='notice'><%= notice %></p><!-- /.col-lg-4 -->
+
     </div><!-- /.row -->
 
+    <ul>
+
+      <% @posts.each do |p| %>
+        <li class="row featurette">
+          <h3><%=p.title%></h3>
+          <p class="lead"> <%= p.body %> </p>
+          <% if current_user %>
+          <%= link_to "Edit", edit_post_path(p.id) %>
+          <%= link_to "Delete", post_path(p.id), method: :delete, data: { confirm: "Are you sure?" } %>
+          <% end %>
+        </li>
+        <hr class="featurette-divider">
+      <% end %>
+    </ul>
 
     <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
     <div class="row featurette">
       <div class="col-md-7">
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
       </div>
-
     </div>
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2 text-right" >
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-
-    </div>
-
-    <hr class="featurette-divider">
 
     <!-- /END THE FEATURETTES -->
 
