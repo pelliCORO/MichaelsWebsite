@@ -4,6 +4,7 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
+    redirect_to login_path, notice: "You must be logged in" unless current_user
     @posts = Post.all
   end
 
@@ -15,21 +16,19 @@ class PostsController < ApplicationController
   # GET /posts/new
   def new
     redirect_to login_path, notice: "You must be logged in" unless current_user
-
     @post = Post.new
   end
 
-
   # GET /posts/1/edit
   def edit
-    redirect_to login_path, notice: "You must be logged in" unless current_user
+    @post = Post.find(params[:id])
+    redirect_to login_path, notice: "You aren't allowed to edit this post" unless current_user.is_admin == true || current_user.id == @post.author_id
   end
 
   # POST /posts
   # POST /posts.json
   def create
     @post = Post.new(post_params)
-
     respond_to do |format|
       if @post.save
         format.html { redirect_to @post, notice: 'Post was successfully created.' }

@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
+    redirect_to login_path, notice: "You must be logged in" unless current_user.is_admin == true
     @users = User.all
   end
 
@@ -19,7 +20,8 @@ class UsersController < ApplicationController
 
   # GET /users/1/edit
   def edit
-    redirect_to login_path, notice: "You must be logged in" unless current_user
+    @user = User.find(params[:id])
+    redirect_to login_path, notice: "You must be logged in" unless current_user.id == @user.id || current_user.is_admin == true
   end
 
 
