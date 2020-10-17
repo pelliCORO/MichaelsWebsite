@@ -10,13 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36291727-e265-4fc6-a005-2fbabddd7af8" name="Default Changelist" comment="some edits">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-    </list>
+    <list default="true" id="36291727-e265-4fc6-a005-2fbabddd7af8" name="Default Changelist" comment="added redirection based on permissions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +69,7 @@
       <workItem from="1602794004849" duration="4108000" />
       <workItem from="1602919891370" duration="1158000" />
       <workItem from="1602921311718" duration="17726000" />
-      <workItem from="1602955774404" duration="4689000" />
+      <workItem from="1602955774404" duration="4988000" />
     </task>
     <task id="LOCAL-00001" summary="added .idea to git ignore">
       <created>1602933091449</created>
@@ -105,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602956320448</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added redirection based on permissions">
+      <created>1602964129278</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602964129279</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +128,8 @@
     <MESSAGE value="added .idea to git ignore" />
     <MESSAGE value="all Ruby functionalities added" />
     <MESSAGE value="some edits" />
-    <option name="LAST_COMMIT_MESSAGE" value="some edits" />
+    <MESSAGE value="added redirection based on permissions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added redirection based on permissions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="826" y="381" width="339" height="207" key="Github.ShareDialog" timestamp="1602932729823">
