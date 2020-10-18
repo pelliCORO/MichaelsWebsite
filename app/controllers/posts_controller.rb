@@ -22,7 +22,9 @@ class PostsController < ApplicationController
   # GET /posts/1/edit
   def edit
     @post = Post.find(params[:id])
-    redirect_to login_path, notice: "You aren't allowed to edit this post" unless current_user.is_admin == true || current_user.id == @post.author_id
+    #redirect_to login_path, notice: "You aren't allowed to edit this post" unless current_user.is_admin == true || current_user.id == @post.author_id
+    redirect_to login_path, notice: "You aren't allowed to edit this post" unless current_user
+
   end
 
   # POST /posts

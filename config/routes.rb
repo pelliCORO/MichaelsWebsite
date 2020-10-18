@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'pages/home'
   resources :posts
   get 'sessions/new'
   get 'sessions/create'
@@ -8,10 +7,9 @@ Rails.application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   root 'home#index'
   get 'user/show'
-  get 'blogpostverfassen/index'
-  get 'einstellungen/index'
+  get 'blogpostverfassen', to:'posts#new', as:'write'
+  #get 'einstellungen' , to:'users#edit', as:'edit'
   get 'home/index'
-  get 'login/index'
   get 'signup', to: 'users#new', as: 'signup'
   get 'login', to: 'sessions#new', as: 'login'
   get 'logout', to: 'sessions#destroy', as: 'logout'
