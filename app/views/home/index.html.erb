@@ -23,21 +23,21 @@
           <li class="nav-item">
             <%= link_to 'new post', "/posts/new", class: "nav-link disabled"%>
           </li>
-        <li class="nav-item">
-          <%= link_to 'Einstellungen',  "/users/" + current_user.id.to_s + "/edit" , class: "nav-link disabled"%>
-        </li>
+          <li class="nav-item">
+            <%= link_to 'Einstellungen',  "/users/" + current_user.id.to_s + "/edit" , class: "nav-link disabled"%>
+          </li>
         <% end %>
         <li class="nav-item">
           <% if current_user %>
-              <%= link_to 'Log Out', logout_path , class: "nav-link disabled"%>
-            <% else %>
+            <%= link_to 'Log Out', logout_path , class: "nav-link disabled"%>
+          <% else %>
             <%= link_to 'Log In', login_path, class: "nav-link disabled"%>
             </li>
             <li>
               <%= link_to 'Sign Up', signup_path ,class: "nav-link disabled"%>
-        <% end %>
-        </li>
-      </ul>
+          <% end %>
+          </li>
+          </ul>
     </div>
   </nav>
 </header>
@@ -70,25 +70,22 @@
 
   <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
-
+    <!-- START THE FEATURETTES -->
     <ul>
-
+      <% x = ["left", "right"].cycle %>
       <% @posts.each do |p| %>
-        <li class="row featurette">
-          <h3 ><%=p.title%></h3>
-          <p class="lead"> <%= p.body %></p>
-            <% if current_user && (current_user.is_admin || current_user.id == p.author_id)  %>            <%= link_to "Edit", edit_post_path(p.id) %>
-          <%= link_to "Delete", post_path(p.id), method: :delete, data: { confirm: "Are you sure?" } %>
+        <% align = x.next %>
+        <li class="row featurette <%=align%>">
+          <h3 class="<%=align%>"><%=p.title%></h3>
+          <p class="lead <%=align%>" ><%= p.body %></p>
+          <% if current_user && (current_user.is_admin || current_user.id == p.author_id)  %>
+            <%= link_to "Edit", edit_post_path(p.id) %>
+            <%= link_to "Delete", post_path(p.id), method: :delete, data: { confirm: "Are you sure?" } %>
           <% end %>
         </li>
         <hr class="featurette-divider">
       <% end %>
     </ul>
-
-    <!-- START THE FEATURETTES -->
-
-
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
@@ -104,14 +101,25 @@
 </html>
 
 <style>
-  .row h3{
-      font-size: 20px;
-      font-weight: bold;
-  }
-  .row {
-      display: block;
-  }
+    .row h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .row {
+        display: block;
+    }
 
+    .left{
+        text-align: left;
 
+    }
+    .right{
+        text-align: right;
+    }
+
+    . right p{
+        width: 50%;
+
+    }
 
 </style>

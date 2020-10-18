@@ -12,11 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="36291727-e265-4fc6-a005-2fbabddd7af8" name="Default Changelist" comment="adding style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20201017095713_create_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20201017095713_create_users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20201017100402_add_name_to_users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20201017162230_create_posts.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20201017162230_create_posts.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RunManager">
@@ -80,7 +79,8 @@
       <workItem from="1603004234815" duration="2002000" />
       <workItem from="1603006466325" duration="88000" />
       <workItem from="1603007021677" duration="7512000" />
-      <workItem from="1603022997547" duration="9084000" />
+      <workItem from="1603022997547" duration="9212000" />
+      <workItem from="1603045519000" duration="998000" />
     </task>
     <task id="LOCAL-00001" summary="added .idea to git ignore">
       <created>1602933091449</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603040662982</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adding style">
+      <created>1603041656013</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603041656013</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,11 +197,11 @@
       <screen x="72" y="27" width="1848" height="908" />
     </state>
     <state x="793" y="156" width="479" height="644" key="Github.UntrackedFilesDialog/72.27.1848.908@72.27.1848.908" timestamp="1602932757950" />
-    <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603040671465">
+    <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603041659228">
       <screen x="72" y="27" width="1848" height="953" />
     </state>
     <state x="591" y="217" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.908@72.27.1848.908" timestamp="1602933098323" />
-    <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.953@72.27.1848.953" timestamp="1603040671465" />
+    <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.953@72.27.1848.953" timestamp="1603041659228" />
     <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.955@72.27.1848.955" timestamp="1602964168003" />
     <state x="777" y="396" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602930381724">
       <screen x="72" y="27" width="1848" height="908" />
