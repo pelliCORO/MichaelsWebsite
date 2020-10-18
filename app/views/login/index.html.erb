@@ -1,31 +1,18 @@
 <body>
 <link href="application.scss" rel="stylesheet">
 
-<form class="login" action="/login" method="post">
-  <h3>Anmelden</h3>
-  <label>email</label>
-  <p><input class="fields" type="text" name="email"></p>
-  <label>passwort</label>
-  <p><input class="fields" type="text" name="password"></p>
-  <p><input class="button" type="submit" name="Login" value="Login"></p>
-
-
-</form>
 
 <p id=”alert”><%= alert %></p>
-<h1>Login</h1><%= form_tag do |form| %>
-
+<h1>Login</h1><%= form_tag sessions_path do |form| %>
   <div class=”field”>
     <%= label_tag :email %>
     <%= text_field_tag :email %>
-  </div>
-  <div class=”field”>
-    <%= label_tag :password %>
-    <%= password_field_tag :password %>
-  </div>
-  <div class=”actions”>
-    <%= submit_tag %>
-  </div>
+  </div>  <div class=”field”>
+  <%= label_tag :password %>
+  <%= password_field_tag :password %>
+</div>  <div class=”actions”>
+  <%= submit_tag 'login' %>
+</div>
 <% end %>
 
 </body>

@@ -1,13 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <style>
-    p#notice{
-        font-size: 24px;
-        color: red;
-        font-weight: bold;
-    }
-  </style>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" defer></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>
@@ -84,9 +78,9 @@
       <% @posts.each do |p| %>
         <li class="row featurette">
           <h3><%=p.title%></h3>
-          <p class="lead"> <%= p.body %> </p>
+          <p class="lead"> <%= p.body %>
           <% if current_user %>
-          <%= link_to "Edit", edit_post_path(p.id) %>
+            <%= link_to "Edit", edit_post_path(p.id) %>
           <%= link_to "Delete", post_path(p.id), method: :delete, data: { confirm: "Are you sure?" } %>
           <% end %>
         </li>
@@ -95,11 +89,6 @@
     </ul>
 
     <!-- START THE FEATURETTES -->
-    <div class="row featurette">
-      <div class="col-md-7">
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-    </div>
 
 
     <!-- /END THE FEATURETTES -->

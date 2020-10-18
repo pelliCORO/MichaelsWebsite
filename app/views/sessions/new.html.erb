@@ -1,12 +1,57 @@
-<p id=”alert”><%= alert %></p>
-<h1>Login</h1><%= form_tag sessions_path do |form| %>
-  <div class=”field”>
+<body>
+<link href="application.scss" rel="stylesheet">
+
+
+
+<%= form_tag sessions_path, {class: 'login'} do |form| %>
+  <h3>Login</h3>
+  <div class="field">
     <%= label_tag :email %>
     <%= text_field_tag :email %>
-  </div>  <div class=”field”>
+  </div>  <div class="field">
   <%= label_tag :password %>
   <%= password_field_tag :password %>
-</div>  <div class=”actions”>
+</div>
+  <div class="actions">
   <%= submit_tag 'login' %>
 </div>
+  <p id="alert"><%= alert %></p>
+
 <% end %>
+
+</body>
+
+<style>
+
+    body {
+        background-image: url("/assets/vincecarterdunk.jpg");
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+
+    form.login{
+        background-color: white;
+        width: 350px;
+        padding: 30px;
+        margin-left: 100px;
+        margin-top: 300px;
+
+    }
+    form.login label{
+        display: block;
+    }
+
+    form.login div.actions{
+        margin-top: 20px;
+    }
+    form.login div.field{
+        margin-top: 20px;
+    }
+
+    form.login #alert{
+        margin-top: 20px;
+        color: red;
+    }
+
+</style>

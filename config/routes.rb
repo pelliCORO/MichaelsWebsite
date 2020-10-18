@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'pages/home'
   resources :posts
   get 'sessions/new'
   get 'sessions/create'
@@ -10,7 +11,7 @@ Rails.application.routes.draw do
   get 'blogpostverfassen/index'
   get 'einstellungen/index'
   get 'home/index'
-  #get 'login/index'
+  get 'login/index'
   get 'signup', to: 'users#new', as: 'signup'
   get 'login', to: 'sessions#new', as: 'login'
   get 'logout', to: 'sessions#destroy', as: 'logout'
