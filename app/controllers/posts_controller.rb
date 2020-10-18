@@ -17,13 +17,13 @@ class PostsController < ApplicationController
   def new
     redirect_to login_path, notice: "You must be logged in" unless current_user
     @post = Post.new
+    @post.author_id = current_user.id
   end
 
   # GET /posts/1/edit
   def edit
     @post = Post.find(params[:id])
-    #redirect_to login_path, notice: "You aren't allowed to edit this post" unless current_user.is_admin == true || current_user.id == @post.author_id
-    redirect_to login_path, notice: "You aren't allowed to edit this post" unless current_user
+    redirect_to login_path, notice: "You aren't allowed to edit this post" unless current_user && (current_user.is_admin == true || current_user.id == @post.author_id)
 
   end
 
@@ -74,6 +74,8 @@ class PostsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def post_params
-      params.require(:post).permit(:title, :body)
+      params.require(:post).permit(:title, :body, :author_id)
     end
+
+
 end

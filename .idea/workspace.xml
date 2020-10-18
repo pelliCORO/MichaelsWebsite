@@ -12,43 +12,13 @@
   <component name="ChangeListManager">
     <list default="true" id="36291727-e265-4fc6-a005-2fbabddd7af8" name="Default Changelist" comment="signup page/edit password">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/blogpostverfassen.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/einstellungen.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/login.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/tests.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/user.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/blogpostverfassen_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/einstellungen_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/login_controller.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/tests_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/user_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/blogpostverfassen_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/einstellungen_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/login_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/tests_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/user_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogpostverfassen/index.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/einstellungen/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/login/index.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tests/_form.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tests/_test.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tests/edit.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tests/index.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tests/index.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tests/new.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tests/show.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tests/show.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/user/show.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/blogpostverfassen_controller_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/einstellungen_controller_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/login_controller_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/tests_controller_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/user_controller_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/tests_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +82,7 @@
       <workItem from="1603004234815" duration="2002000" />
       <workItem from="1603006466325" duration="88000" />
       <workItem from="1603007021677" duration="7512000" />
+      <workItem from="1603022997547" duration="8169000" />
     </task>
     <task id="LOCAL-00001" summary="added .idea to git ignore">
       <created>1602933091449</created>

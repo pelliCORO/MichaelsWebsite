@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    redirect_to login_path, notice: "You must be logged in" unless current_user.is_admin == true
+    redirect_to login_path, notice: "You must be logged in" unless current_user && current_user.is_admin == true
     @users = User.all
   end
 
@@ -21,7 +21,7 @@ class UsersController < ApplicationController
   # GET /users/1/edit
   def edit
     @user = User.find(params[:id])
-    redirect_to login_path, notice: "You must be logged in" unless current_user.id == @user.id || current_user.is_admin == true
+    redirect_to login_path, notice: "You must be logged in" unless current_user && (current_user.id == @user.id || current_user.is_admin == true)
   end
 
 
@@ -49,8 +49,8 @@ class UsersController < ApplicationController
         format.html { redirect_to @user, notice: 'User was successfully updated.' }
         format.json { render :show, status: :ok, location: @user }
       else
+        format.html { redirect_to @user, notice: 'User was not updated' }
         format.html { render :edit }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -73,6 +73,6 @@ class UsersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def user_params
-      params.require(:user).permit(:email, :password, :password_confirmation)
+      params.require(:user).permit(:email, :password, :password_confirmation,:name, :is_admin)
     end
 end

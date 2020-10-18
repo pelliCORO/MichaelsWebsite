@@ -1,4 +1,4 @@
-<%= form_with(model: post, local: true) do |form| %>
+<%= form_with(model: post, local: true, class: "blog") do |form| %>
   <% if post.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
@@ -22,9 +22,51 @@
   </div>
 
   <div class="actions">
-    <%= form.hidden_field :author_id, :value => current_user.id%>
+    <%= form.hidden_field :author_id %>
     <%= form.submit %>
   </div>
+  <hr>
 
 
 <% end %>
+<style>
+
+  hr{
+  border: solid 1px
+  }
+  .blog .actions{
+      text-align: left;
+      margin-top: 10px;
+
+  }
+
+  .blog .actions input{
+      background-color: #0000FF ;
+      color: white;
+      width: 130px;
+
+  }
+  .blog label {
+      display: block;
+      text-align: left;
+
+  }
+
+form.blog{
+    display: inline-block;
+    width: 500px;
+    margin-top: 150px;
+    font-size: 20px;
+}
+main{
+    text-align: center;
+
+}
+.blog textarea{
+    width: 500px;
+    height: 250px;
+}
+.blog input{
+    width: 500px;
+}
+</style>

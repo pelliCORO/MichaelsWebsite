@@ -1,10 +1,14 @@
-<%= form_with(model: user, local: true) do |form| %>
+<%= form_with(model: user, local: true, class: "settings") do |form| %>
   <% if current_user %>
-    <h3>Change password</h3>
+    <h3>Edit profile</h3>
   <% else %>
     <h3>Sign up</h3>
   <% end %>
 
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
 
   <div class="field">
     <%= form.label :email %>
@@ -36,3 +40,44 @@
     </div>
   <% end %>
 <% end %>
+<style>
+
+    hr{
+        border: solid 1px
+    }
+    .settings .actions{
+        text-align: left;
+        margin-top: 10px;
+
+    }
+
+    .settings .actions input{
+        background-color: #0000FF ;
+        color: white;
+        width: 130px;
+
+    }
+    .settings label {
+        display: block;
+        text-align: left;
+
+    }
+
+    form.settings{
+        display: inline-block;
+        width: 500px;
+        margin-top: 150px;
+        font-size: 20px;
+    }
+    main{
+        text-align: center;
+
+    }
+    .settings textarea{
+        width: 500px;
+        height: 250px;
+    }
+    .settings input{
+        width: 500px;
+    }
+</style>
