@@ -10,26 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36291727-e265-4fc6-a005-2fbabddd7af8" name="Default Changelist" comment="added redirection based on permissions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/blogpostverfassen.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/blogpostverfassen.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/einstellungen.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/einstellungen.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/posts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/sessions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sessions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/tests.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/tests.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/user.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/user.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/users/show.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users/show.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/login/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/login/index.html.erb" afterDir="false" />
+    <list default="true" id="36291727-e265-4fc6-a005-2fbabddd7af8" name="Default Changelist" comment="layout loginpage">
       <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +74,7 @@
       <workItem from="1602955774404" duration="5948000" />
       <workItem from="1603004234815" duration="2002000" />
       <workItem from="1603006466325" duration="88000" />
-      <workItem from="1603007021677" duration="2595000" />
+      <workItem from="1603007021677" duration="2909000" />
     </task>
     <task id="LOCAL-00001" summary="added .idea to git ignore">
       <created>1602933091449</created>
@@ -136,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602964163002</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="layout loginpage">
+      <created>1603009941810</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603009941810</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +148,8 @@
     <MESSAGE value="all Ruby functionalities added" />
     <MESSAGE value="some edits" />
     <MESSAGE value="added redirection based on permissions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added redirection based on permissions" />
+    <MESSAGE value="layout loginpage" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout loginpage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="826" y="381" width="339" height="207" key="Github.ShareDialog" timestamp="1602932729823">
@@ -170,10 +160,11 @@
       <screen x="72" y="27" width="1848" height="908" />
     </state>
     <state x="793" y="156" width="479" height="644" key="Github.UntrackedFilesDialog/72.27.1848.908@72.27.1848.908" timestamp="1602932757950" />
-    <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602964168003">
-      <screen x="72" y="27" width="1848" height="955" />
+    <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603009947198">
+      <screen x="72" y="27" width="1848" height="953" />
     </state>
     <state x="591" y="217" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.908@72.27.1848.908" timestamp="1602933098323" />
+    <state x="591" y="227" key="Vcs.Push.Dialog.v2/72.27.1848.953@72.27.1848.953" timestamp="1603009947198" />
     <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.955@72.27.1848.955" timestamp="1602964168003" />
     <state x="777" y="396" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602930381724">
       <screen x="72" y="27" width="1848" height="908" />
