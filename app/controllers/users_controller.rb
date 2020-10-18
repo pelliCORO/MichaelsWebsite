@@ -50,7 +50,6 @@ class UsersController < ApplicationController
         format.json { render :show, status: :ok, location: @user }
       else
         format.html { redirect_to @user, notice: 'User was not updated' }
-        format.html { render :edit }
       end
     end
   end
