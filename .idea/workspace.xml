@@ -10,8 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36291727-e265-4fc6-a005-2fbabddd7af8" name="Default Changelist" comment="layout loginpage">
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
+    <list default="true" id="36291727-e265-4fc6-a005-2fbabddd7af8" name="Default Changelist" comment="loginpage additional links">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +79,7 @@
       <workItem from="1602955774404" duration="5948000" />
       <workItem from="1603004234815" duration="2002000" />
       <workItem from="1603006466325" duration="88000" />
-      <workItem from="1603007021677" duration="2909000" />
+      <workItem from="1603007021677" duration="5468000" />
     </task>
     <task id="LOCAL-00001" summary="added .idea to git ignore">
       <created>1602933091449</created>
@@ -125,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603009941810</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="loginpage additional links">
+      <created>1603010331027</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603010331027</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +161,8 @@
     <MESSAGE value="some edits" />
     <MESSAGE value="added redirection based on permissions" />
     <MESSAGE value="layout loginpage" />
-    <option name="LAST_COMMIT_MESSAGE" value="layout loginpage" />
+    <MESSAGE value="loginpage additional links" />
+    <option name="LAST_COMMIT_MESSAGE" value="loginpage additional links" />
   </component>
   <component name="WindowStateProjectService">
     <state x="826" y="381" width="339" height="207" key="Github.ShareDialog" timestamp="1602932729823">
@@ -160,11 +173,11 @@
       <screen x="72" y="27" width="1848" height="908" />
     </state>
     <state x="793" y="156" width="479" height="644" key="Github.UntrackedFilesDialog/72.27.1848.908@72.27.1848.908" timestamp="1602932757950" />
-    <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603009947198">
+    <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603010334288">
       <screen x="72" y="27" width="1848" height="953" />
     </state>
     <state x="591" y="217" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.908@72.27.1848.908" timestamp="1602933098323" />
-    <state x="591" y="227" key="Vcs.Push.Dialog.v2/72.27.1848.953@72.27.1848.953" timestamp="1603009947198" />
+    <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.953@72.27.1848.953" timestamp="1603010334288" />
     <state x="591" y="227" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.955@72.27.1848.955" timestamp="1602964168003" />
     <state x="777" y="396" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602930381724">
       <screen x="72" y="27" width="1848" height="908" />

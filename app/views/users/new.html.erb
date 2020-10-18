@@ -1,5 +1,47 @@
-<h1>New User</h1>
+
+
+<body>
+<link href="application.scss" rel="stylesheet">
 
 <%= render 'form', user: @user %>
 
-<%= link_to 'Back', users_path %>
+<%= link_to 'Back', login_path %>
+
+
+
+</body>
+
+<style>
+
+    body {
+        background-image: url("/assets/vincecarterdunk.jpg");
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+
+    form{
+        background-color: white;
+        width: 350px;
+        padding: 30px;
+        margin-left: 100px;
+        margin-top: 300px;
+
+    }
+    form label{
+        display: block;
+    }
+
+    form div.actions{
+        margin-top: 20px;
+    }
+    form div.field{
+        margin-top: 20px;
+    }
+
+    form #error_explanation{
+        margin-top: 20px;
+        color: red;
+    }
+
+</style>
